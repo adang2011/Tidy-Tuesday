@@ -9,3 +9,9 @@ Tidy Tuesday 1: Chocolate Ratings
 * Data: [Chocolate Bar Ratings from Flavors of Cacao by Will Canniford on Kaggle](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-01-18/readme.md)
 * Script: [Chocolate](https://github.com/adang2011/Tidy-Tuesday/blob/main/Chocolate/script/choco.R)
 * Output: [Chocolate Rating by Cocoa Percent](https://github.com/adang2011/Tidy-Tuesday/blob/main/Chocolate/output/Chocolate.png)
+
+
+Tidy Tuesday 2: Bee Colonies
+* Data: [Bee Colony Losses from USDA](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-01-11/readme.md)
+* Script: [Bee Colonies Stressor](https://github.com/adang2011/Tidy-Tuesday/blob/main/Bees/script/stressor.R)
+* Output: [Bee Colonies Stressors Across West Coast](https://github.com/adang2011/Tidy-Tuesday/blob/main/Bees/output/West_Coast.png), [Bee Colonies Stressors Across East Coast](https://github.com/adang2011/Tidy-Tuesday/blob/main/Bees/output/East_Coast.png), [Bee Colonies Stressors Across Mid West](https://github.com/adang2011/Tidy-Tuesday/blob/main/Bees/output/Mid_West.png), [Bee Colonies Stressors Across Southern States](https://github.com/adang2011/Tidy-Tuesday/blob/main/Bees/output/Southern_States.png)
