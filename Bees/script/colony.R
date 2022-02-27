@@ -76,10 +76,10 @@ BeeColony_WestCoast %>%
   ggplot(colony, mapping = aes(x = colony_max, y = colony_lost, color = state)) +     ## set up plot
   geom_jitter(size = 0.6) +                                                           ## select type of plot
   facet_grid(~months) +                                                               ## facet to stressor values
-  labs(title = "Bee Colonies Losses Across West Coast",                               ## set title label
+  labs(title = "Bee Colony Losses Across West Coast",                                 ## set title label
        x = "Max Colonies", y = "Colonies Lost",                                       ## set x and y axes labels
        fill = "States",                                                             
-       caption = "Bee Colonies Losses Data from USDA") +                              ## set caption for source
+       caption = "Bee Colony Losses Data from USDA") +                                ## set caption for source
   theme(plot.title = element_text(size = 30, hjust = 0.5,                             ## adjust title size/centering/fonts
                                   family = "yanone"),
         axis.title = element_text(size = 20,                                          ## adjust axes size/fonts
@@ -97,10 +97,10 @@ BeeColony_EastCoast %>%
   ggplot(colony, mapping = aes(x = colony_max, y = colony_lost, color = state)) +     ## set up plot
   geom_jitter(size = 0.6) +                                                           ## select type of plot
   facet_grid(~months) +                                                               ## facet to stressor values
-  labs(title = "Bee Colonies Losses Across East Coast",                               ## set title label
+  labs(title = "Bee Colony Losses Across East Coast",                                 ## set title label
        x = "Max Colonies", y = "Colonies Lost",                                       ## set x and y axes labels
        fill = "States", 
-       caption = "Bee Colonies Losses Data from USDA") +                              ## set caption for source
+       caption = "Bee Colony Losses Data from USDA") +                                ## set caption for source
   theme(plot.title = element_text(size = 30, hjust = 0.5,                             ## adjust title size/centering/fonts
                                   family = "yanone"),
         axis.title = element_text(size = 20,                                          ## adjust axes size/fonts 
@@ -118,10 +118,10 @@ BeeColony_MidWest %>%
   ggplot(colony, mapping = aes(x = colony_max, y = colony_lost, color = state)) +     ## set up plot
   geom_jitter(size = 0.6) +                                                           ## select type of plot
   facet_grid(~months) +                                                               ## facet to stressor values
-  labs(title = "Bee Colonies Losses Across Mid West",                                 ## set title label
+  labs(title = "Bee Colony Losses Across Mid West",                                   ## set title label
        x = "Max Colonies", y = "Colonies Lost",                                       ## set x and y axes labels
        fill = "States", 
-       caption = "Bee Colonies Losses Data from USDA") +                              ## set caption for source
+       caption = "Bee Colony Losses Data from USDA") +                                ## set caption for source
   theme(plot.title = element_text(size = 30, hjust = 0.5,                             ## adjust title size/centering/fonts
                                   family = "yanone"),
         axis.title = element_text(size = 20,                                          ## adjust axes size/fonts 
@@ -139,10 +139,10 @@ BeeColony_Southern %>%
   ggplot(colony, mapping = aes(x = colony_max, y = colony_lost, color = state)) +     ## set up plot
   geom_jitter(size = 0.6) +                                                           ## select type of plot
   facet_grid(~months) +                                                               ## facet to stressor values
-  labs(title = "Bee Colonies Losses Across Southern States",                          ## set title label
+  labs(title = "Bee Colony Losses Across Southern States",                            ## set title label
        x = "Max Colonies", y = "Colonies Lost",                                       ## set x and y axes labels
        fill = "Months", 
-       caption = "Bee Colonies Losses Data from USDA") +                              ## set caption for source
+       caption = "Bee Colony Losses Data from USDA") +                                ## set caption for source
   theme(plot.title = element_text(size = 30, hjust = 0.5,                             ## adjust title size/centering/fonts
                                   family = "yanone"),
         axis.title = element_text(size = 20,                                          ## adjust axes size/fonts 
