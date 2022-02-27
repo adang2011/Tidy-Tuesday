@@ -74,7 +74,7 @@ BeeStressor_WestCoast %>%
   geom_jitter(size = 0.6) +                                                        ## select type of plot
   facet_grid(~stressor) +                                                          ## facet to stressor values
   labs(title = "Bee Colonies Stressors Across West Coast",                         ## set title label
-       x = "Stress level (pct)", y = "Stressor",                                   ## set x and y axes labels
+       x = "Stress level (pct)", y = "State",                                      ## set x and y axes labels
        fill = "Months",                                                            
        caption = "Bee Colonies Stressor Data from USDA") +                         ## set caption for source
   theme(plot.title = element_text(size = 30, hjust = 0.5,                          ## adjust title size/centering/fonts
@@ -95,7 +95,7 @@ BeeStressor_EastCoast %>%
   geom_jitter(size = 0.6) +                                                        ## select type of plot
   facet_grid(~stressor) +                                                          ## facet to stressor values
   labs(title = "Bee Colonies Stressors Across East Coast",                         ## set title label
-       x = "Stress level (pct)", y = "Stressor",                                   ## set x and y axes labels
+       x = "Stress level (pct)", y = "State",                                      ## set x and y axes labels
        fill = "Months", 
        caption = "Bee Colonies Stressor Data from USDA") +                         ## set caption for source
   theme(plot.title = element_text(size = 30, hjust = 0.5,                          ## adjust title size/centering/fonts
@@ -116,7 +116,7 @@ BeeStressor_MidWest %>%
   geom_jitter(size = 0.6) +                                                        ## select type of plot
   facet_grid(~stressor) +                                                          ## facet to stressor values
   labs(title = "Bee Colonies Stressors Across Mid West",                           ## set title label
-       x = "Stress level (pct)", y = "Stressor",                                   ## set x and y axes labels
+       x = "Stress level (pct)", y = "State",                                      ## set x and y axes labels
        fill = "Months", 
        caption = "Bee Colonies Stressor Data from USDA") +                         ## set caption for source
   theme(plot.title = element_text(size = 30, hjust = 0.5,                          ## adjust title size/centering/fonts
@@ -137,7 +137,7 @@ BeeStressor_Southern %>%
   geom_jitter(size = 0.6) +                                                        ## select type of plot
   facet_grid(~stressor) +                                                          ## facet to stressor values
   labs(title = "Bee Colonies Stressors Across Southern States",                    ## set title label
-       x = "Stress level (pct)", y = "Stressor",                                   ## set x and y axes labels
+       x = "Stress level (pct)", y = "State",                                      ## set x and y axes labels
        fill = "Months", 
        caption = "Bee Colonies Stressor Data from USDA") +                         ## set caption for source
   theme(plot.title = element_text(size = 30, hjust = 0.5,                          ## adjust title size/centering/fonts
