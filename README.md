@@ -18,9 +18,9 @@ Tidy Tuesday 2: Bee Colonies
 
 
 Tidy Tuesday 3: EU Student Mobility (in progress)
-* Data: 
-* Script:
-* Output:
+* Data: [Erasmus Student Mobility](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-03-08/readme.md)
+* Script: [EU Students](https://github.com/adang2011/Tidy-Tuesday/blob/main/EU_Students_Mobility/script/EU_Students.R)
+* Output: [Student mobility based on special needs](https://github.com/adang2011/Tidy-Tuesday/blob/main/EU_Students_Mobility/output/Nationality_based_mobility.png)
 
 
 Tidy Tuesday 4: Collegiate Sports Budgets
