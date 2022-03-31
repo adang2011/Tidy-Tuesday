@@ -29,10 +29,10 @@ Tidy Tuesday 4: Collegiate Sports Budgets
 * Output: [Revenue Men vs. Women](https://github.com/adang2011/Tidy-Tuesday/blob/main/Collegiate_sports/output/Collegiate_Sports_Revenue.png), [Expenditures Men vs. Women](https://github.com/adang2011/Tidy-Tuesday/blob/main/Collegiate_sports/output/Collegiate_Sports_Expenditures.png)
 
 
-Tidy Tuesday 5: Baby Names (in progress)
-* Data: 
-* Script: 
-* Output: 
+Tidy Tuesday 5: Baby Names 
+* Data: [Baby names from US babynames & nzbabynames](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-03-22/readme.md)
+* Script: [Baby names](https://github.com/adang2011/Tidy-Tuesday/blob/main/Baby_names/scripts/baby_names.R)
+* Output: [Top 10 Names fro Girls in the 21st Century](https://github.com/adang2011/Tidy-Tuesday/blob/main/Baby_names/output/girlsnames.png), [Top 10 Names for Boys in the 21st Century](https://github.com/adang2011/Tidy-Tuesday/blob/main/Baby_names/output/boysnames.png), [Top 10 Names Boys vs. Girls](https://github.com/adang2011/Tidy-Tuesday/blob/main/Baby_names/output/popularnames.png)
 
 
 Tidy Tuesday 6: CRAN/BIOC Vignettes (in progress)
