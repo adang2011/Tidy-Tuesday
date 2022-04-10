@@ -35,7 +35,7 @@ Tidy Tuesday 5: Baby Names
 * Output: [Top 10 Names fro Girls in the 21st Century](https://github.com/adang2011/Tidy-Tuesday/blob/main/Baby_names/output/girlsnames.png), [Top 10 Names for Boys in the 21st Century](https://github.com/adang2011/Tidy-Tuesday/blob/main/Baby_names/output/boysnames.png), [Top 10 Names Boys vs. Girls](https://github.com/adang2011/Tidy-Tuesday/blob/main/Baby_names/output/popularnames.png)
 
 
-Tidy Tuesday 6: CRAN/BIOC Vignettes (in progress)
-* Data:
-* Script:
-* Output:
+Tidy Tuesday 6: CRAN/BIOC Vignettes
+* Data: [CRAN/BIOC from Robert Flight GitHub](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-03-15/readme.md)
+* Script: [Vignettes](https://github.com/adang2011/Tidy-Tuesday/blob/main/Vignettes/scripts/vignettes.R)
+* Output: [CRAN/BIOC Vignettes RNW](https://github.com/adang2011/Tidy-Tuesday/blob/main/Vignettes/output/Vignette_RNW.png), [CRAN/BIOC Vignettes RMD](https://github.com/adang2011/Tidy-Tuesday/blob/main/Vignettes/output/Vignette_RMD.png)
