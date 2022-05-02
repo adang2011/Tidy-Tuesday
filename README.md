@@ -39,3 +39,9 @@ Tidy Tuesday 6: CRAN/BIOC Vignettes
 * Data: [CRAN/BIOC from Robert Flight GitHub](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-03-15/readme.md)
 * Script: [Vignettes](https://github.com/adang2011/Tidy-Tuesday/blob/main/Vignettes/scripts/vignettes.R)
 * Output: [CRAN/BIOC Vignettes RNW](https://github.com/adang2011/Tidy-Tuesday/blob/main/Vignettes/output/Vignette_RNW.png), [CRAN/BIOC Vignettes RMD](https://github.com/adang2011/Tidy-Tuesday/blob/main/Vignettes/output/Vignette_RMD.png)
+
+
+Tidy Tuesday 7: Indoor Air Pollution
+* Data: [Indoor Air Pollution Data from OurWorldInData.org](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-04-12/readme.md)
+* Script: [air_pol](https://github.com/adang2011/Tidy-Tuesday/blob/main/Air_Pollution/scripts/air_pol.R)
+* Output: [Deaths from Indoor Air Pollution in United States](https://github.com/adang2011/Tidy-Tuesday/blob/main/Air_Pollution/output/pollution_deaths.png)
