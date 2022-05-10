@@ -6,7 +6,6 @@
 ## Load libraries #####################################
 library(tidyverse)
 library(here)
-library(tvthemes)
 library(patchwork)
 
 ## Load data ###########################################
@@ -22,13 +21,15 @@ solar_plot <- solar %>%
   scale_color_viridis_c() +
   labs(title = "Solar Power Costs vs Capacity", 
        x = "Solar Capacity", y = "Solar Price ($/MWh)", 
-       color = "Solar Capacity") +
+       color = "Solar Capacity", 
+       caption = "Solar/Wind Utilities data from Berkeley Lab") +
   theme(plot.title = element_text(size = 24, hjust = 0.5),
         axis.title = element_text(size = 16), 
         legend.title = element_text(size = 12), 
         panel.background = element_rect(fill = "gray"), 
         axis.text = element_text(size = 10), 
         panel.grid = element_line(color = "beige"))
+solar_plot
 ggsave(here("US_Solar_Wind", "output", "Solar_power_cost_cap.png"), 
        width = 8, height = 5)
 
@@ -38,13 +39,15 @@ wind_plot <- wind %>%
   scale_color_viridis_c() +
   labs(title = "Wind Power Costs vs Capacity", 
        x = "Wind Capacity", y = "Wind Price ($/MWh)", 
-       color = "Wind Capacity") +
+       color = "Wind Capacity", 
+       caption = "Solar/Wind Utilities data from Berkeley Lab") +
   theme(plot.title = element_text(size = 24, hjust = 0.5),
         axis.title = element_text(size = 16), 
         legend.title = element_text(size = 12), 
         panel.background = element_rect(fill = "gray"), 
         axis.text = element_text(size = 10), 
         panel.grid = element_line(color = "beige"))
+wind_plot
 ggsave(here("US_Solar_Wind", "output", "Wind_power_cost_cap.png"), 
        width = 8, height = 5)
 
