@@ -43,5 +43,11 @@ Tidy Tuesday 6: CRAN/BIOC Vignettes
 
 Tidy Tuesday 7: Indoor Air Pollution
 * Data: [Indoor Air Pollution Data from OurWorldInData.org](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-04-12/readme.md)
-* Script: [air_pol](https://github.com/adang2011/Tidy-Tuesday/blob/main/Air_Pollution/scripts/air_pol.R)
+* Script: [Air Pollution Deaths](https://github.com/adang2011/Tidy-Tuesday/blob/main/Air_Pollution/scripts/air_pol.R)
 * Output: [Deaths from Indoor Air Pollution in United States](https://github.com/adang2011/Tidy-Tuesday/blob/main/Air_Pollution/output/pollution_deaths.png)
+
+
+Tidy Tuesday 8: Solar/Wind Utilities
+* Data: [US Solar/Wind data from Berkeley Lab](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-05-03/readme.md)
+* Script: [Solar/Wind Prices vs Capacity](https://github.com/adang2011/Tidy-Tuesday/blob/main/US_Solar_Wind/script/solar_wind.R)
+* Output: [Solar Power Costs vs Capacity](https://github.com/adang2011/Tidy-Tuesday/blob/main/US_Solar_Wind/output/Solar_power_cost_cap.png), [Wind Power Costs vs Capacity](https://github.com/adang2011/Tidy-Tuesday/blob/main/US_Solar_Wind/output/Wind_power_cost_cap.png), [Solar vs Wind](https://github.com/adang2011/Tidy-Tuesday/blob/main/US_Solar_Wind/output/Solar_vs_Wind.png)
